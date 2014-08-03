@@ -13,6 +13,11 @@
 
           alert("hello120");
 
+          $.getJSON("/rank", function(json){
+
+              alert("JSON Data: " + json);
+          });
+
 
       });
 
