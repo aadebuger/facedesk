@@ -16,7 +16,7 @@
           $.getJSON("/rank", function(json){
 
               alert("JSON Data: " + json);
-              alert( len( json));
+              alert( json.length);
           });
 
 
