@@ -19,7 +19,7 @@
               alert( json.length);
               for ( i=0;i< json.length;i ++)
               {
-$("#tableid").append("<li class='table-view-cell media'><a class='navigate-right'><img class='media-object pull-left' src='/uploads/0.jpg' height='96'> <div class='media-body'>  1 </div></a>   </li>'");
+$("#tableid").append("<li class='table-view-cell media'><a class='navigate-right'><img class='media-object pull-left' src='/uploads/"+ json[i]   +"' height='96'> <div class='media-body'> "+i+" </div></a>   </li>'");
               }
           });
 
