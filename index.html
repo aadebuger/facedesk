@@ -1,52 +1,35 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <meta name="viewport" content="width=320; user-scalable=no" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>ColorThief Demo</title>
-
-    <script type="text/javascript" charset="utf-8" src="jquery-2.0.0.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="quantize.js"></script>
-    <script type="text/javascript" charset="utf-8" src="color-thief.js"></script>
-
-    <style>
-        #yourimage {
-            width:100%;
-        }
-
-        #swatches {
-            width: 100%;
-            height: 50px;
-        }
-
-        .swatch {
-            width:18%;
-            height: 50px;
-            border-style:solid;
-            border-width:thin;
-            float: left;
-            margin-right: 3px;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Multi-page template</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.3.min.css">
+    <!--
+    <link rel="stylesheet" href="../_assets/css/jqm-demos.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+    -->
+    <script src="js/jquery.js"></script>
+    <!--
+    <script src="../_assets/js/index.js"></script>
+    -->
+    <script src="js/jquery.mobile-1.4.3.min.js"></script>
+</head>
 </head>
 
 <body>
-
+<div role="main" class="ui-content">
 <form action="/upload" method=post enctype=multipart/form-data>
 <input type="file" capture="camera" accept="image/*" id="takePictureField">
-    <input type=submit value=Upload>
+    <input type=submit value="上传排队">
 
 </form>
+    </div>
 
 
-<img id="yourimage">
 
 
-
-<script>
-
-
-</script>
+<script src="js/jquery.mobile-1.4.3.js"></script>
 </body>
 
 </html>
